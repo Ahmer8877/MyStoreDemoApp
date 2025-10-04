@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFarg"
+    tools:ignore="VisualLintBounds">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#E0638D"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="RedundantNamespace,UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/backBtn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="#E0638D"
+                android:src="@drawable/baseline_keyboard_backspace_24"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/storetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MY STORE"
+            android:textColor="#E7C013"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,TextContrastCheck">
+
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/search_bar"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:background="@drawable/apnishape"
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/baseline_search_24"
+                android:hint="Search Products"
+                android:inputType="text"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/pic1"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/productCatgories"
+                android:text="Product Catgories"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/viewbtn"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:backgroundTint="@color/white"
+                android:text="View All"
+                android:textColor="@color/black"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="7dp"
+                tools:ignore="HardcodedText,RtlHardcoded,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/pic2"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageViews"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/pic3"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imageViewsshp"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/pic4"
+                tools:ignore="ContentDescription,ImageContrastCheck,VisualLintBounds" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Men"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewboy"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/pic5"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/boys"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/pic6"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imegboy"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/pic7"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
